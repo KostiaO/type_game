@@ -1,0 +1,6 @@
+#canvas {
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  background-image: url(./images/setka.png);
+}
