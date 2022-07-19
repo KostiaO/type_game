@@ -4,9 +4,45 @@
   border: 1px solid black;
 }
 
+#canvas-block {
+  border: 3px solid black;
+}
+
+.container {
+  display: flex; 
+  gap: 50px;
+}
+
 .user-input {
   width: 500px;
   height: 40px;
   border: 1px solid #00acdc;
   font-size: 38px;
+}
+
+.user-input--empty {
+  display: none;
+}
+
+.score {
+  font-size: 24px;
+}
+
+.endgame {
+  display: none;
+}
+
+.endgame--visible {
+  display: block;
+}
+
+
+.score-board {
+  padding: 10px;
+  width: max-content;
+  border: 1px solid black;
+}
+
+.canvas-block--empty {
+  display: none;
 }

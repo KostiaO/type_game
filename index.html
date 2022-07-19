@@ -8,20 +8,33 @@
   <title>Document</title>
 </head>
 <body>
-  <canvas id="canvas"></canvas>
-
-  <div class="point">
-    <input 
-      type="text"
-      class="user-input"
-      id="user-input"
-      placeholder="type here!!!"
-    >
+  <div id="canvas-block">
+    <canvas id="canvas"></canvas>
   </div>
-  <div class="score-board">
-    <span class="score" id="score">
 
-    </span>
+  <div class="container">
+    <div class="point">
+      <input 
+        type="text"
+        class="user-input"
+        id="user-input"
+        placeholder="type here!!!"
+      >
+    </div>
+  </div>
+
+  <div class="endgame" id="endofgame">
+    <div class="score-board">
+      <span class="score" id="score">
+
+      </span>
+    </div>
+    <button
+      type="button"
+      onclick="retry()"
+    >
+      Retry
+    </button>
   </div>
 
   <script src="./game.js"></script>
